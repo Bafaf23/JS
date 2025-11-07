@@ -12,11 +12,11 @@ console.log(`Hi, my name is ${firstName} ${lastName} and i am ${age} years old`)
 
 //3. Create three boolean variables and use logical operators to print the result of, at least, two different conditions.
 let iamHunger = true
-let IamGoing = false
-let IWantCoffee = false
-let result1 = iamHunger && IamGoing
-let result2 = iamHunger || IamGoing
-let result3 = !IWantCoffee
+let iamGoing = false
+let iWantCoffee = false
+let result1 = iamHunger && iamGoing
+let result2 = iamHunger || iamGoing
+let result3 = !iWantCoffee
 console.log(result1)
 console.log(result2)
 console.log(result3)
